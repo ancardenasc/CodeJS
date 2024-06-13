@@ -15,3 +15,15 @@ let personaje = {
 };
 
 console.log(personaje);
+console.log(personaje.nombre);
+console.log(personaje['anime']);
+console.log(personaje['edad']);
+
+personaje.edad= 33;
+
+let llave = 'anime';
+personaje[llave]='naruto';
+
+delete personaje['edad'];
+
+console.log(personaje);
